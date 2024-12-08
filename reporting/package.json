@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@nextcloud/vue": "^8.21.0"
+  },
+  "name": "reporting",
+  "version": "0.0.1",
+  "description": "Show interesting information to admins",
+  "main": "reporting-main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SUNET/nextcloud-reporting.git"
+  },
+  "keywords": [
+    "Nextcloud"
+  ],
+  "author": "Micke Nordin <kano@sunet.se>",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/SUNET/nextcloud-reporting/issues"
+  },
+  "homepage": "https://github.com/SUNET/nextcloud-reporting#readme"
+}

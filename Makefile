@@ -16,5 +16,6 @@ docker: build
 .PHONY: build
 
 build:
+	cd $(app_name) && npm run build
 	mkdir -p $(build_dir)
 	tar pczf $(build_dir)/$(app_name).tar.gz $(app_name)/

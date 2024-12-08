@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "@nextcloud/vue": "^8.21.0"
+    "@nextcloud/vue": "^8.21.0",
+    "@nextcloud/webpack-vue-config": "^6.2.0"
   },
   "name": "reporting",
   "version": "0.0.1",
@@ -9,10 +10,12 @@
   "directories": {
     "lib": "lib"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+		"build": "webpack --node-env production --progress",
+		"dev": "webpack --node-env development --progress",
+		"watch": "webpack --node-env development --progress --watch",
+		"serve": "webpack --node-env development serve --progress"
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SUNET/nextcloud-reporting.git"
